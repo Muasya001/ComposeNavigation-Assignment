@@ -18,7 +18,7 @@ class MainActivity : ComponentActivity() {
                 NavHost(navController = navController, startDestination = "home") {
                     composable("home") { HomeScreen(navController = navController) }
                     composable("details") { DetailsScreen(navController = navController) }
-                    composable("details") { RatingScreen(navController = navController) }
+                    composable("rating") { RatingScreen(navController = navController) }
                 }
             }
         }
