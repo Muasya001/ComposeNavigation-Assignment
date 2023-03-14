@@ -1,6 +1,7 @@
 package com.joelkanyi.composenavigation_assignment
 
 import android.annotation.SuppressLint
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.*
 import androidx.compose.runtime.*
@@ -33,7 +34,10 @@ fun RatingScreen(navController: NavController) {
                 verticalArrangement = Arrangement.Center,
                 horizontalAlignment = Alignment.CenterHorizontally
             ) {
-                Text(text = "Rating: 4.5")
+                Text(text = "Rating: 4.5",
+                    modifier = Modifier.
+                            background(Color.Cyan)
+                )
             }
         }
     )

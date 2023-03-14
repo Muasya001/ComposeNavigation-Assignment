@@ -23,7 +23,9 @@ fun DetailsScreen(navController: NavController) {
                         )
                     }
                 },
-                title = { Text(text = "Details Screen") }
+                title = { Text(text = "Details Screen"
+
+                ) }
             )
         },
         content = {
